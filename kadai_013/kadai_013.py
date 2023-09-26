@@ -1,6 +1,6 @@
 #購入金額をtotal、商品の金額をprice、消費税をtaxと定義して作成
 def total(price,tax):
-  total = price * (tax / 100)
+  total = price * (1 +(tax / 100))
   #変数$totalの値を出力する
   print(f"{total}円") 
 
